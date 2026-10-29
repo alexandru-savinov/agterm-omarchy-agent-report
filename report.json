@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "report_id": "omarchy-existing-evidence-example",
-  "observed_at": "2026-10-29T21:23:07.609402+00:00",
+  "report_id": "owner-operated-native-evidence-review",
+  "observed_at": "2026-10-29T21:25:41.988641+00:00",
   "subject": {
     "repository": "https://github.com/alexandru-savinov/agterm-omarchy",
     "source_commit": "5e37cb75ce3d4879ca8b7c74ed28d0548780163a",
@@ -37,6 +37,13 @@
       "evidence_kind": "operator_report",
       "evidence_url": "https://github.com/alexandru-savinov/agterm-omarchy/issues/5#issuecomment-6506869967",
       "note": "The operator reported 4,025 tests in 175 suites; this repository validates report structure, not those test executions."
+    },
+    {
+      "name": "installed-binary-provenance",
+      "result": "pass",
+      "evidence_kind": "inspected_artifact",
+      "evidence_url": "https://github.com/alexandru-savinov/agterm-omarchy/blob/73286f449f86c1fe8cc956f0f35f76cbac442ed0/docs/evidence/omarchy-arm64-2026-10-29/installed-provenance.json",
+      "note": "Published inspection records personal-install COMMIT 5e37cb75 and four binary hashes matching the prior verified payloads. The harness commit is a separate identity."
     }
   ],
   "limitations": [

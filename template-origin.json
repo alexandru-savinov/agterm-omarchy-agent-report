@@ -1,0 +1,14 @@
+{
+  "template_repository": "alexandru-savinov/agterm-omarchy-agent-template",
+  "template_source_commit": "0e6e5f105390e1f41fd69da6e0db7ac69b334673",
+  "generation_api": "POST /repos/alexandru-savinov/agterm-omarchy-agent-template/generate",
+  "generated_repository": "alexandru-savinov/agterm-omarchy-agent-report",
+  "generated_initial_commit": "6fbf5ce5577ffd2be61b9e38558f61109c1434b3",
+  "generated_initial_commit_count": 1,
+  "initial_tree": "d765ae80826065c144e59c4424993dd76753889c",
+  "initial_tree_matches_template": true,
+  "template_metadata_verified": true,
+  "fork": false,
+  "owner_operated": true,
+  "third_party_adoption": false
+}
